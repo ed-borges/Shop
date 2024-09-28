@@ -2,9 +2,10 @@
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Shop.Data;
 using Shop.Models;
 
-namespace Shop.Data;
+namespace Shop.Controllers;
 
 [Route("categories")]
 [ApiController]
