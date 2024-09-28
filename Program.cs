@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using Shop.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,6 +8,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+
+builder.Services.AddDbContext<DataContext>(
+    opt => opt.UseInMemoryDatabase("DataBase")
+    );
+
+builder.Services.AddScoped<DataContext, DataContext>();
 
 var app = builder.Build();
 

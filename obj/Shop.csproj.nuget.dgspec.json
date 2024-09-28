@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Shop\\Shop.csproj": {}
+    "c:\\Projects\\Shop\\Shop.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Shop\\Shop.csproj": {
+    "c:\\Projects\\Shop\\Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Shop\\Shop.csproj",
+        "projectUniqueName": "c:\\Projects\\Shop\\Shop.csproj",
         "projectName": "Shop",
-        "projectPath": "C:\\Projects\\Shop\\Shop.csproj",
+        "projectPath": "c:\\Projects\\Shop\\Shop.csproj",
         "packagesPath": "C:\\Users\\Edvander Borges\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Shop\\obj\\",
+        "outputPath": "c:\\Projects\\Shop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Edvander Borges\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
