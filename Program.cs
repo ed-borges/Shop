@@ -9,9 +9,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
+// builder.Services.AddDbContext<DataContext>(
+//     opt => opt.UseInMemoryDatabase("Database")
+//     );
+
 builder.Services.AddDbContext<DataContext>(
-    opt => opt.UseInMemoryDatabase("DataBase")
-    );
+    opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionStrings"))
+);
 
 builder.Services.AddScoped<DataContext, DataContext>();
 

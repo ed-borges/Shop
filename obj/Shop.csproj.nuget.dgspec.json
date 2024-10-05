@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Projects\\Shop\\Shop.csproj": {}
+    "C:\\Projects\\Shop\\Shop.csproj": {}
   },
   "projects": {
-    "c:\\Projects\\Shop\\Shop.csproj": {
+    "C:\\Projects\\Shop\\Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\Shop\\Shop.csproj",
+        "projectUniqueName": "C:\\Projects\\Shop\\Shop.csproj",
         "projectName": "Shop",
-        "projectPath": "c:\\Projects\\Shop\\Shop.csproj",
+        "projectPath": "C:\\Projects\\Shop\\Shop.csproj",
         "packagesPath": "C:\\Users\\Edvander Borges\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\Shop\\obj\\",
+        "outputPath": "C:\\Projects\\Shop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Edvander Borges\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,7 +50,19 @@
               "target": "Package",
               "version": "[8.0.7, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.8, )"
             },
